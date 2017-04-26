@@ -1,4 +1,3 @@
-### Go template
 # Binaries for programs and plugins
 *.exe
 *.dll
@@ -14,7 +13,12 @@
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
 
-# IntelliJ project files and directories
+# Project files and directoris
+# Vendor
+vendor/
+!vendor/vendor.json
+
+# Ide project files and directories
 .idea/
 .cache/
 *.iml
