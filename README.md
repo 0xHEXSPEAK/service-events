@@ -2,7 +2,7 @@
 Simple implementation of event-messaging solution using microservice design approach.
 
 ```
-# Firstly, run to load dependencies
+# Firstly, you have to load dependencies
 :~ $ govendor sync
 
 # Secondly, run docker build
